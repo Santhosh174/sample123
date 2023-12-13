@@ -938,16 +938,13 @@ header{
   z-index: 100;
   }
   .logo{
-  font-size: 2em;
-  margin-right: 0px;
+  font-size: 25px;
+  display: none;
   }
   .navigation a{
-  text-decoration: none;
-  color: #359381;
-  padding: 6px 15px;
-  border-radius: 20px;
-  margin: 0 10px;
-  font-weight: 600;
+  padding: 6px 2px;
+  font-size: 13px;
+  margin: 0 5px;
   }
   .content h2 {
     font-size: 30px;
@@ -986,8 +983,9 @@ header{
     font-size: 15px;
     }
     .discription{
+      margin-left: 5vw;
         height: 30vh;
-        margin-bottom: 220px;
+        margin-bottom: 260px;
     }
     .content{
         padding: 10px;
@@ -1000,12 +998,13 @@ header{
      .video{
     padding: 20px;
     height: 43vh;
+  margin-bottom: 60px;
 }
 .video h1{
   font-size: 30px;
 }
 .video #yt{
-  margin-left: 0vw;
+  margin-left: 5vw;
   margin-top: 3vh;
   width: 72vw;
   height: 25vh;
@@ -1018,16 +1017,11 @@ header{
 .image h1{
   font-size: 30px;
 }
-#enhancerUIContainer{
-  margin-top: 20px;
-  display: block;
-  width: 70vw;
-  height: 25vh;
-  float:none;
+#enhancerUIContainer,#open-camera,#upload-img,#capture{
+  display: none;
 }
-#enhancerUIContainer img{
-  width: 70vw;
-  height: 25vh;
+#butt{
+  display: block;
 }
 .image button,input[type=submit]{
   display: inline;
@@ -1036,10 +1030,9 @@ header{
   padding: 10px;
 }
 .zone {
-  top: 25vh;
-  right: 30px;
+  top: 5vh;
   width: 70vw;
-  height: 30vh;
+  height: 40vh;
   z-index: 10;
 }
 .zone i {
